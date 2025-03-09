@@ -145,7 +145,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/09/my-third/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/09/2025-3-9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -159,7 +159,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/03/09/my-third/" class="post-title-link" itemprop="url">比赛信息整合app</a>
+            <a href="/2025/03/09/2025-3-9/" class="post-title-link" itemprop="url">春夏秋冬</a>
         </h2>
 
         <div class="post-meta">
@@ -170,7 +170,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2025-03-09 16:03:03 / Modified: 16:23:59" itemprop="dateCreated datePublished" datetime="2025-03-09T16:03:03+08:00">2025-03-09</time>
+              <time title="Created: 2025-03-09 23:10:34 / Modified: 23:11:05" itemprop="dateCreated datePublished" datetime="2025-03-09T23:10:34+08:00">2025-03-09</time>
             </span>
 
           
@@ -184,166 +184,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="1-首先是，我眼中的用户的需求"><a href="#1-首先是，我眼中的用户的需求" class="headerlink" title="1.首先是，我眼中的用户的需求"></a>1.首先是，我眼中的用户的需求</h2><ul>
-<li>app一定要简洁且占用小</li>
-<li>操作逻辑越简单越好，最好是让八旬老人一看到就知道这个是干什么的</li>
-<li>用户可以高度自定义，包括但不仅限于背景图片、颜色、透明度、图标、模块排布先后顺序、简化显示</li>
-<li>用户有一个通道进行反馈</li>
-</ul>
-<p>上面说的很笼统概括，下面会细分拆开来讲。</p>
-<h2 id="2-功能界面分类"><a href="#2-功能界面分类" class="headerlink" title="2.功能界面分类:"></a>2.功能界面分类:</h2><p>我认为该app应该实现以下功能</p>
-<h3 id="2-1-搜索界面功能"><a href="#2-1-搜索界面功能" class="headerlink" title="2.1 搜索界面功能"></a>2.1 <strong>搜索界面功能</strong></h3><p>用户可以按照活动时间、活动名称、活动地点进行搜索。在该界面搜索框的右边应当有个设置按钮，用户可以对该界面进行美化，隐藏搜索记录，修改颜色，粗体显示之类的。</p>
-<h3 id="2-2-主界面"><a href="#2-2-主界面" class="headerlink" title="2.2 主界面"></a>2.2 <strong>主界面</strong></h3><p>主界面，也就是用户每次启动app时出现的界面，我希望设置成从上到下、标有活动名称（或活动简写）的时间轴，用户可以上下滑动。当用户第一次点击活动名称的时候，会出现该活动的时间、简介、入口、详细这四个项信息，特别强调，该信息是以弹窗或扩展的形式弹出，总之就是该界面不能改变以时间轴为底的排版。在这个状态下，活动会标记出开始时间和结束时间，并将该时间段的区域高亮。用户可点击空白处以返回原状，如果用户点击详细则进入该活动的界面。</p>
-<p>在主界面的右上角有一个设置按钮，用户可以对这个界面进行设置和美化，就比如总以活动简称显示、点击直接进入活动详细页、调整与设置单位时间，活动折叠显示等等。美化就不说了。这里详细提一下单位时间，所谓的单位时间就是这把时间尺的一个基本刻度，活动会结合该基本刻度，显示在相对应的位置。</p>
-<p>为了用户能够更方便的调整单位时间，在设置的下方有一个竖条状的滑动条，用户可以上划该条减少单位时间，下划该条可以增加单位时间。</p>
-<h3 id="2-3-活动详细界面"><a href="#2-3-活动详细界面" class="headerlink" title="2.3 活动详细界面"></a>2.3 活动详细界面</h3><p>从上到下，分别是活动logo（如果没有就用默认提供的图标）、时间、地点、开始时间结束时间和持续时间（这三个放一起，就比如2000.1.1—2001.3.5）、活动链接。</p>
-<p>活动链接，如果是网页就把网页放上去，如果是微信公众号，就把该公众号的名字放上去。然后最后要标注是网站还是公众号。</p>
-<p>一样要一个设置按钮，用于设置这几个不同板块的排布，是否显示，总是显示默认图片之类的。</p>
-<h3 id="2-4-分类界面"><a href="#2-4-分类界面" class="headerlink" title="2.4 分类界面"></a>2.4 分类界面</h3><p>我们会对每一个活动进行属性和领域的定义，然后会把每一个类的图标方块放上去，用户可以自行选择。</p>
-<p>设置按钮不会少的，这里设置的是，图标排布、图标是否排除，图标修改等等</p>
-<h2 id="2-5-设置界面"><a href="#2-5-设置界面" class="headerlink" title="2.5 设置界面"></a>2.5 设置界面</h2><p>上面的所有设置都会另其一份放在该界面的个性化里。除此以外，只有两个按钮，一个是语言设置，另一个是检查更新，检查更新里有更新日志和停止更新。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/09/my-second/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Alice">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2025/03/09/my-second/" class="post-title-link" itemprop="url">关于大语言模型的使用</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2025-03-09 16:02:58 / Modified: 16:08:39" itemprop="dateCreated datePublished" datetime="2025-03-09T16:02:58+08:00">2025-03-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>大语言模型它并不是万能的，不能把它当作百宝箱。</p>
-<h2 id="要以自己为中心进行使用"><a href="#要以自己为中心进行使用" class="headerlink" title="要以自己为中心进行使用"></a>要以自己为中心进行使用</h2><p>不管怎么说，大预言模型只是工具，不能指望它能帮我们思考。不过很好的一点是它能促进我们对自我的思考。我们得确定自己到底想做什么，感兴趣的是什么，然后再考虑这个模型能为我们做什么。</p>
-<h2 id="拆解任务"><a href="#拆解任务" class="headerlink" title="拆解任务"></a>拆解任务</h2><p>《人月神话》里有个手术台模型——一个项目团队分工模型。里面的核心人物是主刀医生，负责项目的规格书构思和实施监督，而其他的人员——编辑，管理，程序员，技术专家，测试人员都是为这个主刀医生服务。这个是提升团队效率的模型，现在也可以用来提升我们的开发效率。也就是得先确定规划书，然后将拆解后的编码任务给ai写个大概并自己补充相关代码，之后手动修改一些bug，最后将所有东西按照文件架构拼起来，测试运行。</p>
-<h2 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h2><p>LLM的联网搜索确实好用，它帮我汇总的资料能节省我不少时间。</p>
-<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>有一些知识，网络论坛如果查不到的话，问LLM确实能解决问题。我一般有问题是先看看网络论坛上有没有人解答，没有的话就是问discord群的大佬，如果还是没有我才会问LLM，有歧义的问题我都会问一遍。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/09/my-first/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Alice">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2025/03/09/my-first/" class="post-title-link" itemprop="url">关于LLM的使用</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2025-03-09 16:02:35 / Modified: 16:08:16" itemprop="dateCreated datePublished" datetime="2025-03-09T16:02:35+08:00">2025-03-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="人"><a href="#人" class="headerlink" title="人"></a>人</h2><blockquote>
-<p><strong>《人月神话》中 Harlan Mills 的建议——手术台</strong><br>                      外科医生（首席程序员）<br>                             │<br> ┌─────────┬───────────┬──────┼───────────┬─────────┐<br> │                │           │                  │         │<br> │                │           │                  │         │<br>   副手       管理员       编辑              程序职员    测试系统与源代码管理系统<br>（设计后备） (行政管理)  (文档支持)         (技术记录维护)   (技术支持工具)<br>               │           │<br>               │           │<br>          管理员秘书      编辑秘书<br>        （行政文件）     （文档维护）</p>
-</blockquote>
-<p>当前时代，我认为，我们每个人应该都是外科医生。实现一个功能亦或者玩个项目的时候，我们都应该了解该活动的方方面面，了解自己的需求和要求，知道要做什么之后，将一些编码任务交给AI，自己完成组合。当然debug还是要自己做的，ai改的太慢了。</p>
-<p>需要强调的是，在这种情况下我们就更应该广涉猎，多思考，而不是指望着ai能够像保姆一样，说句话就能一劳永逸了。</p>
-<p>最重要的就是如何让ai能够理解我们的意思，毕竟他不会读心。下面是我关于ai的一些设置。</p>
-<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h3 id="用前提示"><a href="#用前提示" class="headerlink" title="用前提示"></a>用前提示</h3><hr>
-<p><strong>GPT4.5在有限制的情况下的回答</strong><br>![[Pasted image 20250307172039.png]]</p>
-<p><strong>GPT4.5在无限制的情况下的回答</strong><br>![[Pasted image 20250307172244.png]]<br>可以看见，区别还是很大的。当然啊，这个提示也不是我搞得，是我抄鸭哥的，如下</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">要有深度，有独立思考，给我惊喜（但是回答里别提惊喜）。</span><br><span class="line">在回答问题，做任务之前先想想，我为什么要问你这个问题？背后有没有什么隐藏的问题？因为很多时候可能我交给你一个任务，是在一个更大的context下面，我已经做了一些假设。你要思考这个假设可能是什么，有没有可能我问的问题本身不是最优的，如果我们突破这个假设，可以问出更正确的问题，从更根本的角度得到启发。</span><br><span class="line">在你回答问题的时候，要先思考一下，你的答案的成功标准是什么。换言之，什么样的答案是“好”的。注意，不是说你要回答问题，而是说你的回答的内容本身要满足什么标准，才算是很好地解决了我的需求。然后针对这些标准构思答案，最好能让我惊喜。</span><br><span class="line">你最终还是要给出一个答案的。但是我们是一个collaborative的关系。你的目标不是单纯的在一个回合的对话中给出一个确认的答案（这可能会逼着你一些假设不明的时候随意作出假设），而是跟我合作，一步步找到问题的答案，甚至是问题实际更好的问法。换言之，你的任务不是follow我的指令，而是给我启发。</span><br><span class="line">不要滥用bullet points， 把他们局限在top level。尽量用自然语言自然段。当你进行写作类任务的时候，使用亲切语气和生动的用语习惯。避免使用引号。</span><br></pre></td></tr></table></figure>
-
-
-<p><strong>注意</strong></p>
-<p><strong>通义有提示</strong></p>
-<p>![[Pasted image 20250307173514.png]]</p>
-<p><strong>通义无提示</strong></p>
-<p>![[Pasted image 20250307173548.png]]</p>
-<p>总之就是，区别是很大的。另外提示词是不能随便乱搬的，需要自己修改。</p>
-<h3 id="提问要详细"><a href="#提问要详细" class="headerlink" title="提问要详细"></a>提问要详细</h3><p>提问的时候，一定要把你的需求完完全全的一五一十的给他，就比如所用工具的版本、所要的效果的<strong>详细</strong>说明、 该文件功能所需的上下文、变量的命名之类的，不然调试的时候要修改的东西挺多的。</p>
-<p>如果烂不想打字的话，可以用语音识别后的文字复制到文本框，这样能节约不少时间。</p>
-<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>我也在学习，到现在只做过一个markdown编辑器这一个玩具。以上第一点是从大佬那里抄来的，第二条是我的经验。</p>
+          <h2 id="为什么我想要干这件事"><a href="#为什么我想要干这件事" class="headerlink" title="为什么我想要干这件事"></a>为什么我想要干这件事</h2><p>我搞这个东西，是为了纪念我的大学生涯。我现在每天想的事情、想说的话和想干的事情都很多，有些事情来不及被记录就这样被我遗忘了，这太可惜了。所以我花了一点时间搞了这个东西，虽然画面还很简单，用的甚至都是默认的NEXT美化（从网站底部就可以看到），如果之后有时间，我会研究一下怎么美化这个界面。总之，这就是我想做这件事情的原因。</p>
+<h2 id="关于标题"><a href="#关于标题" class="headerlink" title="关于标题"></a>关于标题</h2><p>你能够看到，我用的标题是《春夏秋冬》，倒不是我喜欢打麻将才用这个的（我可以说打麻将的次数不超过5个数），真正的原因是——缅怀我之前的与现在的时光。</p>
+<p>首先可以表明的点就是，我并不后悔我过去的20多年做的所有事情，因为有这些事情，我才认识到我自己到底是谁，到底想要做什么。虽然我并不确定这是不是我终身都要追求的目标——玩的开心，但至少我现在是这么想的。或许工作之后，我对该目标的态度会有很大转变，也或许认为这个想法完全就是错误的，反正这都是后话了，到时候如果错了，我应该会反思吧。说着说着跑题了，先说回这个标题吧。我啊，执行力差，很容易“移情别恋”——看到另一个喜欢的就把之前的那个放弃了，很多时候完全没有我想像的那么完美，很多时候都在犯着我说别人的错误，很多时候总是在一个死循环里跳不出来，说实话，像极了春夏秋冬，不断地犯错、修复又重复。</p>
+<p>我啊，以前认为，我对上面提到的目标总是有那么多的热诚，并且相信我能持续不动摇地坚持下去。但实际上，我并没有那么厉害，一次小小的沙龙就能把我打回原型，真的是很好玩。之前看的视频，说的是一个北大毕业生卖猪肉的事情，主人公在里面说，他用了十多年的时间才完全认清楚一个道理——做自己的喜欢的事情。一开始我没什么感觉，现在体会到了这其中的艰辛，坚持一件事是真的难啊。</p>
+<p>所以啊，我用《春夏秋冬》这篇随笔，来埋葬过去的一切，都过去了，有影响但还是想做自己啊。</p>
+<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>想必，看到这里的你也烦了，我就不搞什么了，再见。</p>
 
       
     </div>
@@ -425,7 +271,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
