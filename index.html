@@ -216,7 +216,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/03/09/my-second/" class="post-title-link" itemprop="url">my second</a>
+            <a href="/2025/03/09/my-second/" class="post-title-link" itemprop="url">关于大语言模型的使用</a>
         </h2>
 
         <div class="post-meta">
@@ -225,8 +225,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2025-03-09 16:02:58" itemprop="dateCreated datePublished" datetime="2025-03-09T16:02:58+08:00">2025-03-09</time>
+              <time title="Created: 2025-03-09 16:02:58 / Modified: 16:08:39" itemprop="dateCreated datePublished" datetime="2025-03-09T16:02:58+08:00">2025-03-09</time>
             </span>
 
           
@@ -240,7 +241,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          
+          <p>大语言模型它并不是万能的，不能把它当作百宝箱。</p>
+<h2 id="要以自己为中心进行使用"><a href="#要以自己为中心进行使用" class="headerlink" title="要以自己为中心进行使用"></a>要以自己为中心进行使用</h2><p>不管怎么说，大预言模型只是工具，不能指望它能帮我们思考。不过很好的一点是它能促进我们对自我的思考。我们得确定自己到底想做什么，感兴趣的是什么，然后再考虑这个模型能为我们做什么。</p>
+<h2 id="拆解任务"><a href="#拆解任务" class="headerlink" title="拆解任务"></a>拆解任务</h2><p>《人月神话》里有个手术台模型——一个项目团队分工模型。里面的核心人物是主刀医生，负责项目的规格书构思和实施监督，而其他的人员——编辑，管理，程序员，技术专家，测试人员都是为这个主刀医生服务。这个是提升团队效率的模型，现在也可以用来提升我们的开发效率。也就是得先确定规划书，然后将拆解后的编码任务给ai写个大概并自己补充相关代码，之后手动修改一些bug，最后将所有东西按照文件架构拼起来，测试运行。</p>
+<h2 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h2><p>LLM的联网搜索确实好用，它帮我汇总的资料能节省我不少时间。</p>
+<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>有一些知识，网络论坛如果查不到的话，问LLM确实能解决问题。我一般有问题是先看看网络论坛上有没有人解答，没有的话就是问discord群的大佬，如果还是没有我才会问LLM，有歧义的问题我都会问一遍。</p>
+
       
     </div>
 
@@ -273,7 +279,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/03/09/my-first/" class="post-title-link" itemprop="url">my first</a>
+            <a href="/2025/03/09/my-first/" class="post-title-link" itemprop="url">关于LLM的使用</a>
         </h2>
 
         <div class="post-meta">
@@ -282,8 +288,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2025-03-09 16:02:35" itemprop="dateCreated datePublished" datetime="2025-03-09T16:02:35+08:00">2025-03-09</time>
+              <time title="Created: 2025-03-09 16:02:35 / Modified: 16:08:16" itemprop="dateCreated datePublished" datetime="2025-03-09T16:02:35+08:00">2025-03-09</time>
             </span>
 
           
@@ -297,7 +304,28 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          
+          <h2 id="人"><a href="#人" class="headerlink" title="人"></a>人</h2><blockquote>
+<p><strong>《人月神话》中 Harlan Mills 的建议——手术台</strong><br>                      外科医生（首席程序员）<br>                             │<br> ┌─────────┬───────────┬──────┼───────────┬─────────┐<br> │                │           │                  │         │<br> │                │           │                  │         │<br>   副手       管理员       编辑              程序职员    测试系统与源代码管理系统<br>（设计后备） (行政管理)  (文档支持)         (技术记录维护)   (技术支持工具)<br>               │           │<br>               │           │<br>          管理员秘书      编辑秘书<br>        （行政文件）     （文档维护）</p>
+</blockquote>
+<p>当前时代，我认为，我们每个人应该都是外科医生。实现一个功能亦或者玩个项目的时候，我们都应该了解该活动的方方面面，了解自己的需求和要求，知道要做什么之后，将一些编码任务交给AI，自己完成组合。当然debug还是要自己做的，ai改的太慢了。</p>
+<p>需要强调的是，在这种情况下我们就更应该广涉猎，多思考，而不是指望着ai能够像保姆一样，说句话就能一劳永逸了。</p>
+<p>最重要的就是如何让ai能够理解我们的意思，毕竟他不会读心。下面是我关于ai的一些设置。</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h3 id="用前提示"><a href="#用前提示" class="headerlink" title="用前提示"></a>用前提示</h3><hr>
+<p><strong>GPT4.5在有限制的情况下的回答</strong><br>![[Pasted image 20250307172039.png]]</p>
+<p><strong>GPT4.5在无限制的情况下的回答</strong><br>![[Pasted image 20250307172244.png]]<br>可以看见，区别还是很大的。当然啊，这个提示也不是我搞得，是我抄鸭哥的，如下</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">要有深度，有独立思考，给我惊喜（但是回答里别提惊喜）。</span><br><span class="line">在回答问题，做任务之前先想想，我为什么要问你这个问题？背后有没有什么隐藏的问题？因为很多时候可能我交给你一个任务，是在一个更大的context下面，我已经做了一些假设。你要思考这个假设可能是什么，有没有可能我问的问题本身不是最优的，如果我们突破这个假设，可以问出更正确的问题，从更根本的角度得到启发。</span><br><span class="line">在你回答问题的时候，要先思考一下，你的答案的成功标准是什么。换言之，什么样的答案是“好”的。注意，不是说你要回答问题，而是说你的回答的内容本身要满足什么标准，才算是很好地解决了我的需求。然后针对这些标准构思答案，最好能让我惊喜。</span><br><span class="line">你最终还是要给出一个答案的。但是我们是一个collaborative的关系。你的目标不是单纯的在一个回合的对话中给出一个确认的答案（这可能会逼着你一些假设不明的时候随意作出假设），而是跟我合作，一步步找到问题的答案，甚至是问题实际更好的问法。换言之，你的任务不是follow我的指令，而是给我启发。</span><br><span class="line">不要滥用bullet points， 把他们局限在top level。尽量用自然语言自然段。当你进行写作类任务的时候，使用亲切语气和生动的用语习惯。避免使用引号。</span><br></pre></td></tr></table></figure>
+
+
+<p><strong>注意</strong></p>
+<p><strong>通义有提示</strong></p>
+<p>![[Pasted image 20250307173514.png]]</p>
+<p><strong>通义无提示</strong></p>
+<p>![[Pasted image 20250307173548.png]]</p>
+<p>总之就是，区别是很大的。另外提示词是不能随便乱搬的，需要自己修改。</p>
+<h3 id="提问要详细"><a href="#提问要详细" class="headerlink" title="提问要详细"></a>提问要详细</h3><p>提问的时候，一定要把你的需求完完全全的一五一十的给他，就比如所用工具的版本、所要的效果的<strong>详细</strong>说明、 该文件功能所需的上下文、变量的命名之类的，不然调试的时候要修改的东西挺多的。</p>
+<p>如果烂不想打字的话，可以用语音识别后的文字复制到文本框，这样能节约不少时间。</p>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>我也在学习，到现在只做过一个markdown编辑器这一个玩具。以上第一点是从大佬那里抄来的，第二条是我的经验。</p>
+
       
     </div>
 
